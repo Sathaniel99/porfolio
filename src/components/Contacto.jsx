@@ -12,7 +12,7 @@ const contacts = [
     { title: 'Telegram', link: 'https://t.me/mojitodeazucar', Icon: FaTelegram, class: 'btn-outline-telegram' },
     { title: 'Facebook', link: 'https://www.facebook.com/adanluis.quincocesescalonas', Icon: FaFacebook, class: 'btn-outline-facebook' },
     { title: 'Whatsapp', link: 'https://wa.me/5354528530', Icon: FaWhatsapp, class: 'btn-outline-whatsapp' },
-    { title: 'Instagram', link: 'https://www.instagram.com/mojitodeazucar', Icon: FaInstagram, class: 'btn-outline-instagram' },
+    { title: 'Instagram', link: 'https://www.instagram.com/sathaniel_lr/', Icon: FaInstagram, class: 'btn-outline-instagram' },
 ];
 
 export function Contacto() {
