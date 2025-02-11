@@ -34,7 +34,7 @@ export function Sugerencias() {
       <h3 className="mt-3 w-100 text-center user-select-none">Sugerencias</h3>
       <Hr />
       <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3 w-100" controlId="id_email">
+        <Form.Group className="mb-3 w-100 px-1" controlId="id_email">
           <InputGroup className="w-100">
             <InputGroup.Text id="email-addon">
               <BsEnvelopeAtFill
@@ -63,16 +63,16 @@ export function Sugerencias() {
             </InputGroup.Text>
           </InputGroup>
         </Form.Group>
-        <Form.Group className="mb-3" controlId="id_comments">
-          <InputGroup className="mb-2">
-            <InputGroup.Text className="rounded-top text-center w-100 text-muted user-select-none">
+        <Form.Group className="mb-3 px-1" controlId="id_comments">
+          <InputGroup className="flex-column mb-2">
+            <InputGroup.Text className="text-center text-muted user-select-none input-group-text">
               Sugerencia:
             </InputGroup.Text>
             <Form.Control
               as="textarea"
               name="comments"
               rows={10}
-              className="rounded-bottom w-100"
+              className="w-auto"
               placeholder="Sugiera..."
               onChange={(e) => setSugerencia(e.target.value)}
               required
@@ -88,4 +88,4 @@ export function Sugerencias() {
       </Form>
     </React.Fragment>
   );
-}
+} 
