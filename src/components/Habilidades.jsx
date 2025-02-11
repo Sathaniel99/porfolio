@@ -52,7 +52,7 @@ export function Habilidades() {
       },
       {
         name: "JAVA",
-        img: "/portfolio/JAVA.png",
+        img: "/portfolio/java.png",
         url: "https://www.java.com/",
         class: `${cardBaseClass} bg-info-subtle`,
       },
