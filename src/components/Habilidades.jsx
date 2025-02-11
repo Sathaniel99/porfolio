@@ -14,31 +14,31 @@ export function Habilidades() {
     Frontend: [
       {
         name: "HTML5",
-        img: "/src/assets/HTML5.png",
+        img: "/portfolio/HTML5.png",
         url: "https://developer.mozilla.org/es/docs/Web/HTML",
         class: `${cardBaseClass} bg-danger-subtle`,
       },
       {
         name: "CSS3",
-        img: "/src/assets/CSS3.png",
+        img: "/portfolio/CSS3.png",
         url: "https://developer.mozilla.org/es/docs/Web/CSS",
         class: `${cardBaseClass} bg-primary-subtle`,
       },
       {
         name: "JavaScript",
-        img: "/src/assets/JS.png",
+        img: "/portfolio/JS.png",
         url: "https://developer.mozilla.org/es/docs/Web/JavaScript",
         class: `${cardBaseClass} bg-warning-subtle`,
       },
       {
         name: "Bootstrap 5.3",
-        img: "/src/assets/Bootstrap.png",
+        img: "/portfolio/Bootstrap.png",
         url: "https://getbootstrap.com/",
         class: `${cardBaseClass} bg-primary-subtle`,
       },
       {
         name: "Tailwind CSS",
-        img: "/src/assets/Tailwind_CSS.png",
+        img: "/portfolio/Tailwind_CSS.png",
         url: "https://v2.tailwindcss.com/",
         class: `${cardBaseClass} bg-info-subtle`,
       },
@@ -46,13 +46,13 @@ export function Habilidades() {
     Backend: [
       {
         name: "Python",
-        img: "/src/assets/python.png",
+        img: "/portfolio/python.png",
         url: "https://www.python.org/",
         class: `${cardBaseClass} bg-success-subtle`,
       },
       {
         name: "JAVA",
-        img: "/src/assets/JAVA.png",
+        img: "/portfolio/JAVA.png",
         url: "https://www.java.com/",
         class: `${cardBaseClass} bg-info-subtle`,
       },
@@ -60,19 +60,19 @@ export function Habilidades() {
     Frameworks: [
       {
         name: "Django",
-        img: "/src/assets/django.png",
+        img: "/portfolio/django.png",
         url: "https://www.djangoproject.com/",
         class: `${cardBaseClass} bg-success-subtle`,
       },
       {
         name: "React",
-        img: "/src/assets/react.svg",
+        img: "/portfolio/react.svg",
         url: "https://es.react.dev/",
         class: `${cardBaseClass} bg-info-subtle`,
       },
       {
         name: "Nextjs",
-        img: "/src/assets/nextjs.svg",
+        img: "/portfolio/nextjs.svg",
         url: "https://nextjs.org/",
         class: `${cardBaseClass} bg-dark-subtle`,
       },
@@ -80,13 +80,13 @@ export function Habilidades() {
     BD: [
       {
         name: "PostgreSQL",
-        img: "/src/assets/postgreesql.svg",
+        img: "/portfolio/postgreesql.svg",
         url: "https://www.postgresql.org/",
         class: `${cardBaseClass} bg-info-subtle`,
       },
       {
         name: "SQLite",
-        img: "/src/assets/sqlite.png",
+        img: "/portfolio/sqlite.png",
         url: "https://www.sqlite.org/",
         class: `${cardBaseClass} bg-primary-subtle`,
       },

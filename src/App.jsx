@@ -40,7 +40,7 @@ export function App() {
         <Nav variant="pills" className="flex-column h-100 p-1">
               <Nav.Item className="w-100 pb-2 p-4">
                 <Image
-                  src="/src/assets/user.jpg"
+                  src="/portfolio/user.jpg"
                   roundedCircle
                   className="img-fluid shadow border border-2 border-bg-secondary-subtle p-1"
                 />
@@ -84,7 +84,7 @@ export function App() {
             <Nav variant="pills" className="flex-column h-100 p-1">
               <Nav.Item className="w-100 pb-2 p-4">
                 <Image
-                  src="/src/assets/user.jpg"
+                  src="/portfolio/user.jpg"
                   roundedCircle
                   className="img-fluid shadow border border-2 border-bg-secondary-subtle p-1"
                 />
