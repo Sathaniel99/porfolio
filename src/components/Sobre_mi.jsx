@@ -48,7 +48,7 @@ export function Sobre_mi() {
             <h3 className="mt-3 w-100 text-center">Sobre Mí</h3>
             <hr className="w-100 border border-1 border-secondary" />
             <p className="text-center fs-5">
-                Mi nombre es <span className="user-select-all">Adán Luis Quincoces Escalonas</span>, tengo 25 años, soy graduado de <span className="user-select-all">Ingeniero en Ciencias Informáticas</span> de la 
+                Mi nombre es <span className="user-select-all">Adán Luis Quincoces Escalona</span>, tengo 25 años, soy graduado de <span className="user-select-all">Ingeniero en Ciencias Informáticas</span> de la 
                 <OverlayTrigger trigger="hover" placement="top" overlay={uciPopover}>
                     <a className="text-decoration-none" href="https://www.uci.cu/"> Universidad de las Ciencias Informáticas (UCI)</a>
                 </OverlayTrigger> en 
