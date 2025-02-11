@@ -8,10 +8,10 @@ import { OverlayTrigger, Tooltip, Button } from 'react-bootstrap';
 
 const contacts = [
     { title: 'Gmail', text: 'adanlqe@gmail.com', Icon: SiGmail, action: copy_text, type: 'Correo', class: 'btn-outline-email' },
-    { title: 'Número de teléfono', text: '+53 54526830', Icon: FaSquarePhone, action: copy_text, type: 'Número de Teléfono', class: 'btn-outline-phone' },
+    { title: 'Número de teléfono', text: '+53 54528530', Icon: FaSquarePhone, action: copy_text, type: 'Número de Teléfono', class: 'btn-outline-phone' },
     { title: 'Telegram', link: 'https://t.me/mojitodeazucar', Icon: FaTelegram, class: 'btn-outline-telegram' },
     { title: 'Facebook', link: 'https://www.facebook.com/adanluis.quincocesescalonas', Icon: FaFacebook, class: 'btn-outline-facebook' },
-    { title: 'Whatsapp', link: 'https://wa.me/5354526830', Icon: FaWhatsapp, class: 'btn-outline-whatsapp' },
+    { title: 'Whatsapp', link: 'https://wa.me/5354528530', Icon: FaWhatsapp, class: 'btn-outline-whatsapp' },
     { title: 'Instagram', link: 'https://www.instagram.com/mojitodeazucar', Icon: FaInstagram, class: 'btn-outline-instagram' },
 ];
 

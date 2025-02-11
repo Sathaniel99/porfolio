@@ -38,6 +38,9 @@ html[data-bs-theme="light"] :root{
   color: var(--navlink-color);
   box-shadow: rgb(97, 97, 97) 0 0 10px;
 }
+.width-15{
+  width: 15rem;
+}
 
 @media (max-width: 767.98px) {
   #sideLeftBar {

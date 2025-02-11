@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Form, Button, InputGroup } from "react-bootstrap";
 import { BsSendFill, BsEnvelopeAtFill, BsTextarea, BsFileText, BsTextLeft } from "react-icons/bs";
 import { Hr } from "./hr";
-import { hide } from "@popperjs/core";
 
 export function Sugerencias() {
   const [isChecked, setIsChecked] = useState(false);
@@ -25,7 +24,7 @@ export function Sugerencias() {
   }, [isChecked]);
 
   return (
-    <>
+    <React.Fragment>
       <style>{`
         input[type="checkbox"] {
           cursor: pointer;
@@ -85,7 +84,7 @@ export function Sugerencias() {
           <em style={{fontSize: ".9rem"}}>Enviar a Whatsapp</em>
         </div>
       </Form>
-    </>
+    </React.Fragment>
   );
 }
 

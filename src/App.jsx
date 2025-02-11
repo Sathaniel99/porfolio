@@ -33,11 +33,11 @@ export function App() {
       </Button>
       <Tab.Container id="left-tabs-example" defaultActiveKey="about">
       <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
+        <Offcanvas.Header>
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-        <Nav variant="pills" className="flex-column h-100 p-1">
+        <Nav variant="pills" className="flex-column h-100 p-1 align-items-center">
               <Nav.Item className="w-100 pb-2 p-4">
                 <Image
                   src="/portfolio/user.jpg"
@@ -49,27 +49,27 @@ export function App() {
                 <Hr />
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="about" className="text-center">
+                <Nav.Link eventKey="about" className="text-center width-15" onClick={handleClose}>
                   Sobre Mi
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="hablities" className="text-center">
+                <Nav.Link eventKey="hablities" className="text-center width-15" onClick={handleClose}>
                   Habilidades
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="projects" className="text-center">
+                <Nav.Link eventKey="projects" className="text-center width-15" onClick={handleClose}>
                   Proyectos
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="contact" className="text-center">
+                <Nav.Link eventKey="contact" className="text-center width-15" onClick={handleClose}>
                   Contacto
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="sugerenc" className="text-center">
+                <Nav.Link eventKey="sugerenc" className="text-center width-15" onClick={handleClose}>
                   Sugerencias
                 </Nav.Link>
               </Nav.Item>
