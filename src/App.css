@@ -41,7 +41,9 @@ html[data-bs-theme="light"] :root{
 .width-15{
   width: 15rem;
 }
-
+input[type="checkbox"] {
+  cursor: pointer;
+}
 @media (max-width: 767.98px) {
   #sideLeftBar {
     display: none !important;

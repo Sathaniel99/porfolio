@@ -23,7 +23,7 @@ export function App() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="high-card border border-1 border-secondary overflow-hidden position-relative m-auto rounded shadow bg-bg-body-secondary d-flex">
+    <div className="high-card border border-1 border-secondary overflow-hidden position-relative m-auto w-100 rounded shadow bg-bg-body-secondary d-flex">
       <Button
         variant="outline-secondary"
         onClick={handleShow}
@@ -78,7 +78,7 @@ export function App() {
       </Offcanvas>
 
       
-        <Row className="px-2 p-4 h-100">
+        <Row className="py-4 h-100 w-100 m-auto">
           <Col sm={4} className="border-end border-1 border-secondary h-100 d-none d-md-block" id="sideLeftBar">
             
             <Nav variant="pills" className="flex-column h-100 p-1">
@@ -145,7 +145,7 @@ export function App() {
               </Tab.Pane>
               <Tab.Pane
                 eventKey="sugerenc"
-                className="h-100 text-center position-relative"
+                className="h-100 text-center w-100 position-relative"
               >
                 <Sugerencias />
               </Tab.Pane>

@@ -49,16 +49,16 @@ export function Sobre_mi() {
             <hr className="w-100 border border-1 border-secondary" />
             <p className="text-center fs-5">
                 Mi nombre es <span className="user-select-all">Adán Luis Quincoces Escalona</span>, tengo 25 años, soy graduado de <span className="user-select-all">Ingeniero en Ciencias Informáticas</span> de la 
-                <OverlayTrigger trigger="hover" placement="top" overlay={uciPopover}>
+                <OverlayTrigger trigger={['hover', 'focus', 'click']} placement="top" overlay={uciPopover}>
                     <a className="text-decoration-none" href="https://www.uci.cu/"> Universidad de las Ciencias Informáticas (UCI)</a>
                 </OverlayTrigger> en 
-                <OverlayTrigger trigger="hover" placement="top" overlay={habanaPopover}>
+                <OverlayTrigger trigger={['hover', 'focus', 'click']} placement="top" overlay={habanaPopover}>
                     <a className="text-decoration-none" href="https://www.bing.com/maps?q=La%20Habana&amp;satid=id.sid%3A3ca5066a-a331-c1b3-135f-1fde36da55db&amp;FORM=KC2MAP"> La Habana</a>
                 </OverlayTrigger>.
             </p>
             <p className="text-center fs-5">
                 Actualmente trabajo como Director de Informática en el 
-                <OverlayTrigger trigger="hover" placement="top" overlay={inotuPopover}>
+                <OverlayTrigger trigger={['hover', 'focus', 'click']} placement="top" overlay={inotuPopover}>
                     <a className="text-decoration-none" href="https://www.inotu.gob.cu/es"> Insituto Nacional de Ordenamiento Territorial y Urbanismo <strong>(INOTU)</strong></a>
                 </OverlayTrigger>, el cual reside en La Habana, Boyeros.
             </p>
